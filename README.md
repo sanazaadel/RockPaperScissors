@@ -9,8 +9,18 @@ This is a simple implementation of the classic Rock-Paper-Scissors game in Pytho
    - Scissors cuts Paper
    - Paper covers Rock
 5. After the result is displayed, you will be prompted to play again or exit the game.
+## Project Structure
+```
+RockPaperScissors/
+├── src/
+│   ├── logic/
+│   │   ├── game.py          # Contains the main game logic
+│   │   └── scorer.py        # Manages the scoring system
+│   └── main.py              # Entry point to run the game
+└── README.md                # This file
+```
 ## Requirements
-- Python 3.7 or higher
+- Python 3.7+
 ## Running the Game
 To start the game, navigate to the `src` directory and run the following command:
 ```bash
