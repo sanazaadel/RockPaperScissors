@@ -13,6 +13,11 @@ This is a simple implementation of the classic Rock-Paper-Scissors game in Pytho
 - Python 3.7 or higher
 ## Running the Game
 To start the game, navigate to the `src` directory and run the following command:
-```bashpython main.py
+```bash
+python main.py
+```
+Before running the main script, ensure that PYTHONPATH is set correctly to include the `src` directory. For example, in a Unix-like terminal, you can set it as follows:
+```bash
+export PYTHONPATH=$(pwd)
 ```
 Enjoy playing Rock-Paper-Scissors!  
